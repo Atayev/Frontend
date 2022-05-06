@@ -1,0 +1,20 @@
+:root {--mavi :#6bc1f1;}
+header { background: url("img/headerbg.jpg") center/cover;}
+textarea {resize: none;}
+.vh-50 {min-height: 50vh;}
+.bg-nav { background:#ffffffcc}
+.bg-mavi{background: var(--mavi);}
+.bg-boz{background: #f1f1f1}
+.bg-footer {background: #072035;}
+.txt-mavi {color: var(--mavi);}
+.txt-boz {color:#606060}
+.img-size{ width: 50px; height: 50px;}
+.img-slider {width: 75px; height: 75px;}
+.h-200{height: 200px;}
+
+#features1 {background: url("img/img1.jpg") center/cover;}
+#features2 {background: url("img/img2.jpg") center/cover;}
+
+
+#features1:hover,#features2:hover {opacity: 0.4;}
+#features1:hover h5,#features2:hover h5 {display: block!important}

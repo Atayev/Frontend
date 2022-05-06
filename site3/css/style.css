@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Roboto:wght@400;500&display=swap');:root {
+    --yasil: #a2ca28;
+    --qirmizi: #fd634e ;
+}
+
+header {
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+    position: relative;
+    overflow: hidden;
+}
+nav {
+    padding: 40px 50px;
+    text-align: center;
+    
+    
+}
+#menu   {padding: 10px;}
+#menu li {padding: 10px;}
+#menu li a {
+    font: .8em 'Lato', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+#tittle {
+    position: absolute;
+    bottom:17vh ;
+    left: 7.25vh;
+}
+#artrow {padding: 80px 0;}
+#artrow article {padding:20px;}
+#fitnessfirst {background: url('../img/main1.jpg') center/cover; position: relative;}
+#yourbody {background: url('../img/main2.jpg') center/cover; position: relative;}
+#lifestyle {background: url('../img/main3.jpg') center/cover;}
+#summeroffun {background: url('../img/main4.jpg') center/cover; }
+#involve {background: url('../img/main5.jpg') center/cover;}
+#eatinghabbits {background: url('../img/main6.jpg') center/cover;}
+#footbg {background: url('../img/footerjpg.jpg') center/cover; position: relative; overflow:hidden;}
+#name { width: 200px; height: 50px; font: .8em 'Open sans'; color:#83969f;}
+#email {width: 340px; height: 50px; font: .8em 'Open sans'; color:#83969f;}
+#button {width: 180px; height: 50px; background: var(--yasil); font:.9em 'Open sans' ; color: #fff;}
+#red {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom:0;
+    left: 0;
+    background: var(--qirmizi);
+    opacity: .3;
+    transform: rotate(-2.5deg) scaleX(1.2) translate(0, 50px);
+    z-index: 99;
+}
+#blck1 {
+    position: absolute;
+    width: 100vh;
+    height: 350px;
+    bottom:0;
+    left: 0;
+    transform: rotate(3deg) scaleX(1.2) translate(0, 50px);
+    z-index: 99;
+}
+#blck2 {
+    position: absolute;
+    width: 75vh;
+    height: 350px;
+    bottom:0;
+    right: 150px;
+    transform: rotate(-4.2deg) scaleX(1.490) translate(-2%, 45px);
+    z-index: 99;
+}
+#red2 {
+    position: absolute;
+    width: 115%;
+    height: 60px;
+    bottom:0px ;
+    left: 0;
+    background: var(--qirmizi);
+    transform: rotate(2.8deg) scaleX(1.2) translate(0, 50px);
+    z-index: 99;
+    overflow: hidden;
+}
+#fitnessfirst p {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+#yourbody p {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#summeroffun p {
+    padding: 5% 10%;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+}
+i {
+    padding: 0 0 20px 0;
+    color: #fff;
+    font-size: 2em;
+}
+.col25 h3 {
+    font: 1.5em 'Open Sans';
+    color: #fff;
+    padding: 0 0 30px 0;
+
+}
+.col25 p,a {
+    font: .8em 'Roboto',  sans-serif;
+    color: #fff;
+    padding: 0 0 20px 0;
+}
+#footbg h3 { font: 2em 'Open sans'; padding:250px 0 30px 0;}
+#footbg p {font: 1em 'Open sans'; }
+h1, h5{
+    font-family: 'Roboto', sans-serif;
+}
+h1 ,h2 {font-size: 2em;}
+h2 {font-family: "Open Sans"; text-transform: uppercase; padding: 10px 0 25px 0;}
+h5 {font-size: 1em;text-align:right;padding: 15px 20px;}
+h6 {font: 0.9em 'Montserrat'; text-transform: uppercase;}
+
+
+.txtyasil { color: var(--yasil) }
+.txtqirmizi { color: var(--qirmizi) }
+.txtag { color: #fff }
+.bgyasil { background: var(--yasil) }
+.bgqirmizi { background: var(--qirmizi) }  
+.bgag { background: #fff }
+.h100 { height: 100vh }
+.h50 { min-height: 50vh }
+.acenter { text-align: center }
+.boxpadding { padding: 50px 40px }
+.ppadding { padding: 25px 0 }
+.fright { float: right }
+.bgqara {background:#0c1119; overflow: hidden;}
+
+
+.col33 h4 {
+    padding: 65px 0 30px 0 ;
+    font: .9em "Open sans";
+}
+.col33 p { font: .8em 'Open sans'; color: #8297a7;}
+.col66 p { font: .8em 'Open sans'; color: #8297a7;}
+@media only screen and (min-width:768px) {
+    nav {text-align:inherit;}
+    #menu {float: right}
+    #menu li {display: inline-block; padding: 0 0 0 3.75vw}
+    h1 {font-size: 2.5em}
+    h2{font-size:  2.2em;}
+    .container {max-width: 1180px; margin: auto;}
+    .row::after {content: ''; display: table; clear: both}
+    .col25 {width: 25%}
+    .col33{ width: 33.33%}
+    .col66{ width: 66.66%}
+    .fleft{float:left;}
+    .frigth{float:right;}
+
+}   
